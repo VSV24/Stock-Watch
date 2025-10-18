@@ -1,4 +1,4 @@
-import { NAV_ITEMS } from '@/lib/constanrs'
+import { NAV_ITEMS } from '@/lib/constants'
 
 describe('NAV_ITEMS Constants', () => {
   it('should export NAV_ITEMS array', () => {

@@ -2,7 +2,7 @@ import React from 'react'
 import { render, screen } from '@testing-library/react'
 import { usePathname } from 'next/navigation'
 import Navitems from '@/components/Navitems'
-import { NAV_ITEMS } from '@/lib/constanrs'
+import { NAV_ITEMS } from '@/lib/constants'
 
 // Mock next/navigation
 jest.mock('next/navigation', () => ({

@@ -13,7 +13,7 @@ const Home = () => {
           <TradingViewWidgets
             title="Market Overview"
             scriptUrl={`${scriptUrl}market-overview.js`}
-            config={HEATMAP_WIDGET_CONFIG}
+            config={MARKET_OVERVIEW_WIDGET_CONFIG}
             className="custom-chart"
             height={600}
           />

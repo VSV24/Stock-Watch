@@ -35,7 +35,7 @@ const UserDropdown = ({user}:{user:User}) => {
       <DropdownMenuTrigger>
         <Button variant="ghost" className="flex items-center gap-3 text-grey-4 hover:text-yellow-500">
           <Avatar className='h-8 w-8'>
-            <AvatarImage src="https://imgs.search.brave.com/7brhBX22RZi58GivU_1LfadXmB-qFBgU7J_KLrTa27w/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9ibG9n/Z2VyLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9pbWcvYi9SMjl2/WjJ4bC9BVnZYc0Vp/czY2Y3B1QjlYd2x3/T00zZzQ1RW9ROERQ/eG5mNXhrS2l4WGha/TjlBRURXa2xfYk9z/ODhXTUk3TzNWVmRI/VDlHLTExZURCaE8w/elZWZ1MtVlN6UnJL/X0V2X1VMRG9Kc2h4/UTAxbDFNRXVkbzZ0/SmlNcFFvektIa2Fz/NnJoZVVRT2VGQktH/UUlETUVPbEVQMmdD/MU40dVZSZ0FzazBW/V3VSTWRqblU4Y1pv/czVKU1lHSWlyMXpI/SWg0a2ZCZ2YxL3Mx/NjAwMC1ydy90b2pp/LXBmcC0zMy5qcGc" />
+            <AvatarImage />
             <AvatarFallback className='bg-yellow-500 text-yellow-900 text-sm font-bold'>
               {user.name[0]}
             </AvatarFallback>
@@ -49,7 +49,7 @@ const UserDropdown = ({user}:{user:User}) => {
         <DropdownMenuLabel>
           <div className="flex relative items-center gap-3 py-2">
             <Avatar className="h-10 w-10">
-                <AvatarImage src="https://imgs.search.brave.com/7brhBX22RZi58GivU_1LfadXmB-qFBgU7J_KLrTa27w/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9ibG9n/Z2VyLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9pbWcvYi9SMjl2/WjJ4bC9BVnZYc0Vp/czY2Y3B1QjlYd2x3/T00zZzQ1RW9ROERQ/eG5mNXhrS2l4WGha/TjlBRURXa2xfYk9z/ODhXTUk3TzNWVmRI/VDlHLTExZURCaE8w/elZWZ1MtVlN6UnJL/X0V2X1VMRG9Kc2h4/UTAxbDFNRXVkbzZ0/SmlNcFFvektIa2Fz/NnJoZVVRT2VGQktH/UUlETUVPbEVQMmdD/MU40dVZSZ0FzazBW/V3VSTWRqblU4Y1pv/czVKU1lHSWlyMXpI/SWg0a2ZCZ2YxL3Mx/NjAwMC1ydy90b2pp/LXBmcC0zMy5qcGc" />
+                <AvatarImage />
                 <AvatarFallback className="bg-yellow-500 text-yellow-900 text-sm font-bold">
                     {user.name[0]}
                 </AvatarFallback>
